@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Tema escuro premium ===== */
+
+:root {
+  --bg: 10 14 18;
+  --card: 18 24 30;
+  --text: 235 245 255;
+  --muted: 160 175 190;
+  --border: 40 55 70;
+  --primary: 34 197 94;
+}
+
+html, body {
+  background: rgb(var(--bg));
+  color: rgb(var(--text));
+}
+
+/* Scrollbar bonita */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(var(--bg));
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--border));
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--primary));
+}
