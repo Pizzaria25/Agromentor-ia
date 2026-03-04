@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
@@ -1060,3 +1061,12 @@ Regras:
     </div>
   );
 }
+=======
+import { getUser } from "@/lib/auth";
+import { redirect } from "next/navigation";
+
+export default async function Index() {
+  const user = await getUser();
+  redirect(user ? "/dashboard" : "/login");
+}
+>>>>>>> 9363d12 (Deploy inicial AgroMentor IA)

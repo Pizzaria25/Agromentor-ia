@@ -9,19 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@supabase/supabase-js": "^2.98.0",
     "next": "16.1.6",
     "openai": "^4.0.0",
     "pdf-parse": "^2.4.5",
     "react": "18.3.1",
     "react-dom": "18.3.1"
+=======
+    "next": "16.1.6",
+    "openai": "^4.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@supabase/supabase-js": "^2.49.0",
+    "@supabase/ssr": "^0.5.0",
+    "zod": "^3.23.8",
+    "pdf-lib": "^1.17.1",
+    "lucide-react": "^0.468.0",
+    "stripe": "^14.21.0"
+>>>>>>> 9363d12 (Deploy inicial AgroMentor IA)
   },
   "devDependencies": {
     "@types/react": "19.2.14",
     "autoprefixer": "^10.4.27",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.19",
+<<<<<<< HEAD
     "ts-node": "^10.9.2",
+=======
+>>>>>>> 9363d12 (Deploy inicial AgroMentor IA)
     "typescript": "^5.0.0"
   }
 }
