@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 
-const WHATSAPP_URL = "https://wa.me/5517981679418?text=Ol%C3%A1%2C+vim+pelo+AgroMentor+IA+e+tenho+uma+d%C3%BAvida";
+const WHATSAPP_URL = "https://wa.me/5518996308001?text=Ol%C3%A1%2C+vim+pelo+AgroMentor+IA+e+tenho+uma+d%C3%BAvida";
 
 export default function RegisterPage() {
   const supabase = createClient();
